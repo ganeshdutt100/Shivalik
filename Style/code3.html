@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         * {
             margin: 0;
@@ -40,6 +43,41 @@
         ul li a:hover {
             color: yellow;
         }
+
+
+        /* sec1 */
+        .sec1 {
+            display: flex;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+        }
+
+        .Image img {
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        i {
+            font-size: 30px;
+            color: black;
+            padding: 10px;
+            border-radius: 50%;
+            border: 1px dotted black;
+            ;
+        }
     </style>
 </head>
 
@@ -54,6 +92,41 @@
             <li><a href="#">Project</a></li>
         </ul>
     </nav>
+
+
+    <!-- section1 -->
+    <div class="sec1">
+        <div class="secText">
+            <h1>Lorem ipsum dolor sit amet.
+
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam perferendis esse quidem eaque omnis,
+                fugit laboriosam, quae,is soluta alias omnis
+                molestias dolores!</p>
+
+            <!-- <i></i> -->
+            <div>
+                <a href="https://github.com/ganeshdutt100" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/the_ganesh_dutt/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+
+            <a href="https://ganeshdutt100.github.io/Ganesh_Portfolio/">
+                <button>Visit My Portfolio</button>
+            </a>
+        </div>
+
+        <div class="Image">
+            <img src="https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?uid=R168473893&ga=GA1.1.671956177.1737693396&semt=ais_hybrid"
+                alt="">
+        </div>
+    </div>
+
+
+    <!-- <button>Click me </button> -->
 </body>
 
 </html>
